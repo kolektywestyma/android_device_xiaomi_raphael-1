@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_raphael.mk
+    $(LOCAL_DIR)/iron_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_raphael-user \
-    spark_raphael-userdebug \
-    spark_raphael-eng
+    iron_raphael-user \
+    iron_raphael-userdebug \
+    iron_raphael-eng

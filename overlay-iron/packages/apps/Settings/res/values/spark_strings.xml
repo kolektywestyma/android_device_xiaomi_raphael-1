@@ -13,5 +13,5 @@
 -->
 <resources>
     <!-- SparkOS maintainer -->
-    <string name="spark_maintainer">Naveen Johnson</string>
+    <string name="iron_maintainer">Naveen Johnson</string>
 </resources>
