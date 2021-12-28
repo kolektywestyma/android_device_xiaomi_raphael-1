@@ -20,6 +20,9 @@ $(call inherit-product, vendor/iron/config/common_full_phone.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Iron Stuff
+IRON_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := iron_raphael
 PRODUCT_DEVICE := raphael
