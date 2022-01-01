@@ -24,6 +24,9 @@ VOLTAGE_BUILD_TYPE := OFFICIAL
 # GrapheneOS Camera
 TARGET_BUILD_GRAPHENEOS_CAMERA = true
 
+# Bromite Browser
+TARGET_SHIP_BROMITE_BROWSER = true
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 2160
 
