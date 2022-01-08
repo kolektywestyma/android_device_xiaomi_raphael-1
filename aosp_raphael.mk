@@ -15,11 +15,11 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common VoltageOS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common Aospk stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Official-ify
-VOLTAGE_BUILD_TYPE := OFFICIAL
+AOSP_BUILD_TYPE := OFFICIAL
 
 # GrapheneOS Camera
 TARGET_BUILD_GRAPHENEOS_CAMERA = true
@@ -31,7 +31,7 @@ TARGET_SHIP_BROMITE_BROWSER = true
 TARGET_BOOT_ANIMATION_RES := 2160
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := voltage_raphael
+PRODUCT_NAME := aosp_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
