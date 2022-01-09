@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common Aospk stuff.
-$(call inherit-product, vendor/p404/config/common_full_phone.mk)
+$(call inherit-product, vendor/elixir/config/common_full_phone.mk)
 
 # Official-ify
 AOSP_BUILD_TYPE := OFFICIAL
@@ -31,7 +31,7 @@ TARGET_SHIP_BROMITE_BROWSER = true
 TARGET_BOOT_ANIMATION_RES := 2160
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := p404_raphael
+PRODUCT_NAME := elixir_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
