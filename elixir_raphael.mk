@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common Aospk stuff.
-$(call inherit-product, vendor/elixir/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Official-ify
 AOSP_BUILD_TYPE := OFFICIAL
